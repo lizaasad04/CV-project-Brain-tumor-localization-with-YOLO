@@ -51,5 +51,5 @@ pip install numpy pandas matplotlib scipy scikit-image scikit-learn nibabel open
 
 ---
 
-## 📈 Performance Summary
+##  Performance Summary
 A total summary of all dropped slices and model metrics (such as the 5-Fold KNN cross-validation scores and YOLOv8 training loss curves) are embedded and fully readable in the accompanying [CV_Eproject_Fixed_v2_final.html](file:///C:/Users/lizaa/Downloads/CV_Eproject_Fixed_v2_final.html) report.
