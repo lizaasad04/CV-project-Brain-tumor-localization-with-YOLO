@@ -6,14 +6,14 @@ This repository contains the full source code and rendered outputs for the proje
 
 ---
 
-## 📁 Repository Files
+## Repository Files
 
 * **[CV_Eproject_Fixed_v2_final (1).ipynb](file:///C:/Users/lizaa/Downloads/CV_Eproject_Fixed_v2_final%20%281%29.ipynb)**: The primary, cleaned Jupyter Notebook containing the executable code cells (outputs cleared to keep file size under 1MB).
 * **[CV_Eproject_Fixed_v2_final.html](file:///C:/Users/lizaa/Downloads/CV_Eproject_Fixed_v2_final.html)**: The fully rendered HTML backup of the notebook containing all visualizations, logs, training curves, and output tables.
 
 ---
 
-## ⚙️ Pipeline Architecture
+## Pipeline Architecture
 
 ### 1. Preprocessing & Quality Control (E-Assignment 1)
 * **Unsupervised Slice Selection**: Automatically identifies the 2D axial slice with the highest intensity variance of brain tissue. Implements a self-calibrating intensity threshold and limits the search range (15%–80% of axial volume) to prevent selecting empty neck or top-scalp slices.
@@ -41,7 +41,7 @@ This repository contains the full source code and rendered outputs for the proje
 
 ---
 
-## 🛠️ Requirements & Installation
+## Requirements & Installation
 
 To run the notebook locally, ensure you have the following packages installed:
 
@@ -51,5 +51,5 @@ pip install numpy pandas matplotlib scipy scikit-image scikit-learn nibabel open
 
 ---
 
-## 📈 Performance Summary
+##  Performance Summary
 A total summary of all dropped slices and model metrics (such as the 5-Fold KNN cross-validation scores and YOLOv8 training loss curves) are embedded and fully readable in the accompanying [CV_Eproject_Fixed_v2_final.html](file:///C:/Users/lizaa/Downloads/CV_Eproject_Fixed_v2_final.html) report.
