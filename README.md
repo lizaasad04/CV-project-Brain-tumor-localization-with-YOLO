@@ -4,7 +4,7 @@ A complete computer vision pipeline that takes raw pediatric brain MRI scans and
 
 Rather than jumping straight to a model, this project reconstructs the full classical-to-deep-learning CV pipeline: intelligent slice selection → noise filtering → edge-based segmentation → shape/texture feature extraction → unsupervised labeling → supervised classification → YOLOv8 detection.
 
-> Group project for a Computer Vision course (BSAI-F-23-A) with [Zara Zaman](https://github.com/), under Ma'am Hina Rashid.
+> Group project for a Computer Vision course (BSAI-F-23-A) with [Zara Zaman](https://github.com/zaraazaman), under Ma'am Hina Rashid.
 
 ---
 
