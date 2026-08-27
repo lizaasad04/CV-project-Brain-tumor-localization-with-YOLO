@@ -8,7 +8,7 @@ Rather than jumping straight to a model, this project reconstructs the full clas
 
 ---
 
-## 📊 Results
+## Results
 
 | Metric | Score |
 |---|---|
@@ -31,7 +31,7 @@ Rather than jumping straight to a model, this project reconstructs the full clas
 
 ---
 
-## 🩻 Dataset
+## Dataset
 
 **BraTS-PEDs** (Brain Tumor Segmentation – Pediatric): 25 patients, each with a 3D MRI volume across 4 modalities plus a segmentation mask:
 
@@ -42,7 +42,7 @@ Rather than jumping straight to a model, this project reconstructs the full clas
 
 ---
 
-## 🔬 Pipeline
+## Pipeline
 
 The project is structured as four stages, each consuming the previous stage's output.
 
@@ -72,13 +72,13 @@ The project is structured as four stages, each consuming the previous stage's ou
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 `Python` `OpenCV` `NumPy` `scikit-learn` `Ultralytics YOLOv8` `scikit-image`
 
 ---
 
-## 🚀 Setup & Usage
+## Setup & Usage
 
 ```bash
 # Clone the repo
@@ -106,7 +106,7 @@ python train_yolo.py          # Assignment 4: YOLOv8 training + evaluation
 
 ---
 
-## 📁 Repo Structure
+## Repo Structure
 
 ```
 ├── preprocessing.py
@@ -122,7 +122,7 @@ python train_yolo.py          # Assignment 4: YOLOv8 training + evaluation
 
 ---
 
-## 📚 References
+## References
 
 1. Ali, A., Li, X., Mashwani, W.K. et al. Computer vision based efficient segmentation and classification of multi brain tumor using computed tomography images. *Sci Rep* 15, 32198 (2025).
 2. A. M. Alm and S. S. Abu-Naser, "Detection of Brain Tumor Using Deep Learning," *International Journal of Academic Engineering Research (IJAER)*, vol. 6, no. 3, pp. 29–47, 2022.
